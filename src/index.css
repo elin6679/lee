@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Gowun+Dodum&family=Gaegu:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Plus Jakarta Sans", "Gowun Dodum", sans-serif;
+  --font-sans: "Plus Jakarta Sans", "Gowun Dodum", system-ui, sans-serif;
+  --font-cute: "Gaegu", cursive, sans-serif;
+}
+
+body {
+  background-color: #fafbfd;
+  color: #2d3142;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Base custom definitions */
+.dot-grid {
+  background-image: radial-gradient(#e5e7fc 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f7f9fe;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e6f5;
+  border-radius: 9999px;
+  border: 2px solid #f7f9fe;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d0d7ed;
+}
+
